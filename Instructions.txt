@@ -1,0 +1,33 @@
+Graphs
+
+Design a format for storing graphs in files with the following requirements:
+
+	The first line will contain the number of Vertices.
+
+	The second line will have a ‘U’ or a ‘D’ to tell the system if it is Undirected or Directed.
+
+	The rest of the lines will be here for each of the edges.  Each edge will contain three pieces of information:
+		An integer containing the first Vertex
+		An integer containing the second Vertex
+		An integer containing the weight
+
+	You will need to wright two functions for your graph, read and write.
+
+	bool read(string filename);
+	bool wright(string filename);
+
+
+The file must be human readable (use a txt file please).
+
+Here is a sample input file.
+
+Input.txt
+
+6               # Number of vertices
+U               # Undirected graph
+0 4 9           # List of Edges
+0 2 7
+2 3 1
+2 1 5
+2 5 2
+
